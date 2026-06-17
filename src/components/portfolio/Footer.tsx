@@ -12,7 +12,10 @@ export function Footer() {
             <p className="text-sm text-muted-foreground mt-1">{t("footer.sub")}</p>
           </div>
           <a
-            href="#"
+            href="/raphael-miranda-curriculo.pdf"
+            download="Raphael-Miranda-Curriculo.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary/90 transition-all"
           >
             <Download className="w-4 h-4" />
