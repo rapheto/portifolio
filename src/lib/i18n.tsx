@@ -9,6 +9,7 @@ const pt: Dict = {
   "nav.about": "Sobre",
   "nav.experience": "Experiência",
   "nav.education": "Formação",
+  "nav.certifications": "Certificações",
   "nav.skills": "Habilidades",
   "nav.projects": "Projetos",
   "nav.contact": "Contato",
@@ -89,7 +90,7 @@ const pt: Dict = {
     "Além de testes manuais para sistemas iOS e macOS com testes automatizados com Swift e XCUITests.",
 
   // Certifications
-  "cert.index": "03",
+  "cert.index": "04",
   "cert.title": "Certificações",
   "cert.subtitle": "Reconhecimento formal das competências em qualidade de software.",
   "cert.international": "Certificação Internacional",
@@ -99,7 +100,7 @@ const pt: Dict = {
   "cert.link": "Sobre o ISTQB",
 
   // Education
-  "edu.index": "05",
+  "edu.index": "03",
   "edu.title": "Formação",
   "edu.status.ongoing": "Em andamento",
   "edu.status.done": "Concluído",
@@ -113,7 +114,7 @@ const pt: Dict = {
     "Formação em desenvolvimento de jogos digitais, com projetos de RA, game design e programação.",
 
   // Skills
-  "skills.index": "04",
+  "skills.index": "05",
   "skills.title": "Stack de QA",
   "skills.subtitle": "Ferramentas e práticas que uso no dia a dia.",
   "skills.group.automation": "Automação de Testes",
@@ -125,14 +126,19 @@ const pt: Dict = {
   "skills.item.mgmt": "Planejamento e Gestão de Testes",
 
   // Projects
-  "projects.index": "04",
+  "projects.index": "06",
   "projects.title": "Projetos",
   "projects.p1.desc":
     "Projeto de automação de testes para a plataforma Swag Labs usando Python e Pytest.",
   "projects.p2.desc": "Projeto de automação de testes desenvolvido no contexto do CESAR.",
+  "projects.p3.name": "Casos de Teste",
+  "projects.p3.desc":
+    "Planilha de casos de teste e documentação de QA — planejamento, rastreabilidade e cobertura de testes.",
+  "projects.p4.desc":
+    "Jogo desenvolvido em Unity e publicado na itch.io, da minha fase de desenvolvimento de jogos.",
 
   // Timeline
-  "tl.index": "06",
+  "tl.index": "07",
   "tl.title": "Histórico Profissional",
   "tl.j1.role": "Estagiário de QA",
   "tl.j1.period": "Jul 2025 — Presente",
@@ -156,7 +162,7 @@ const pt: Dict = {
     "Apoiei áreas de TI e Recursos Humanos com suporte administrativo, organização de processos internos e atendimento a colaboradores. Foi minha primeira experiência profissional formal, onde desenvolvi responsabilidade, organização e a base do raciocínio analítico.",
 
   // Contact
-  "contact.index": "07",
+  "contact.index": "08",
   "contact.title": "Contato",
   "contact.subtitle":
     "Vamos conversar sobre QA, automação, jogos ou qualquer bug inesperado.",
@@ -180,6 +186,7 @@ const en: Dict = {
   "nav.about": "About",
   "nav.experience": "Experience",
   "nav.education": "Education",
+  "nav.certifications": "Certifications",
   "nav.skills": "Skills",
   "nav.projects": "Projects",
   "nav.contact": "Contact",
@@ -254,7 +261,7 @@ const en: Dict = {
   "exp.body.d":
     "Plus manual testing for iOS and macOS systems, and automated testing with Swift and XCUITests.",
 
-  "cert.index": "03",
+  "cert.index": "04",
   "cert.title": "Certifications",
   "cert.subtitle": "Formal recognition of software quality skills.",
   "cert.international": "International Certification",
@@ -263,7 +270,7 @@ const en: Dict = {
     " by the International Software Testing Qualifications Board — the global standard for QA professionals, recognized in more than 130 countries.",
   "cert.link": "About ISTQB",
 
-  "edu.index": "05",
+  "edu.index": "03",
   "edu.title": "Education",
   "edu.status.ongoing": "In progress",
   "edu.status.done": "Completed",
@@ -276,7 +283,7 @@ const en: Dict = {
   "edu.unicap.note":
     "Training in digital game development, with AR projects, game design and programming.",
 
-  "skills.index": "04",
+  "skills.index": "05",
   "skills.title": "QA Stack",
   "skills.subtitle": "Tools and practices I use day-to-day.",
   "skills.group.automation": "Test Automation",
@@ -287,13 +294,18 @@ const en: Dict = {
   "skills.item.web": "Web Testing",
   "skills.item.mgmt": "Test Planning & Management",
 
-  "projects.index": "04",
+  "projects.index": "06",
   "projects.title": "Projects",
   "projects.p1.desc":
     "Test automation project for the Swag Labs platform using Python and Pytest.",
   "projects.p2.desc": "Test automation project built in the CESAR context.",
+  "projects.p3.name": "Test Cases",
+  "projects.p3.desc":
+    "Test case spreadsheet and QA documentation — test planning, traceability and coverage.",
+  "projects.p4.desc":
+    "Game built in Unity and published on itch.io, from my game development days.",
 
-  "tl.index": "06",
+  "tl.index": "07",
   "tl.title": "Work History",
   "tl.j1.role": "QA Intern",
   "tl.j1.period": "Jul 2025 — Present",
@@ -316,7 +328,7 @@ const en: Dict = {
   "tl.j4.desc":
     "I supported IT and HR areas with administrative help, internal process organization and employee support. It was my first formal professional experience, where I built responsibility, organization and the base of analytical reasoning.",
 
-  "contact.index": "07",
+  "contact.index": "08",
   "contact.title": "Contact",
   "contact.subtitle":
     "Let's talk about QA, automation, games or any unexpected bug.",

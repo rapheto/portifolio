@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
+import portrait from "@/assets/raphael.webp";
 
 const phrases = [
   "QA Engineer",
@@ -49,10 +50,12 @@ export function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full grid lg:grid-cols-[auto_1fr] gap-12 lg:gap-16 items-center relative">
         <div className="mx-auto lg:mx-0 animate-fade-up">
           <div className="relative">
-            <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full border border-border bg-surface flex items-center justify-center">
-              <span className="font-mono text-7xl font-bold text-foreground">
-                RM
-              </span>
+            <div className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-full border border-border bg-surface overflow-hidden">
+              <img
+                src={portrait}
+                alt="Raphael Miranda"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
